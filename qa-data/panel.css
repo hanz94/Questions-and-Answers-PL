@@ -1,0 +1,69 @@
+table, td {
+    border: 1px solid black;
+    padding: 8px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+.table-questions {
+    margin: 11px auto;
+}
+
+.table-questions td:first-child {
+    width: 10%;
+}
+.table-questions td:nth-child(2) {
+    width: 60%;
+}
+.table-questions td:last-child {
+    width: 30%;
+}
+
+.remaining-tables td:first-child {
+    width: 30%;
+}
+.remaining-tables td:nth-child(2) {
+    width: 40%;
+}
+.remaining-tables td:last-child {
+    width: 30%;
+} 
+
+.red {
+    color: #f00;
+}
+
+.green {
+    color: #0b0;
+}
+
+.result-form {
+    margin-top: 15px;
+    border: none;
+    border-top: 1px solid #000;
+    font-size: 1rem;
+    font-weight: normal;
+    
+}
+
+.action-button {
+    margin: auto;
+    width: unset;
+    font-weight: normal;
+    white-space: normal;
+}
+
+
+main {
+        max-width: unset;
+    }
+
+
+@media only screen and (min-width: 700px) {
+    
+    main {
+        max-width: 700px;
+    }
+
+}
